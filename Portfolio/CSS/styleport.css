@@ -1,0 +1,329 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#0ceff0;
+    --dark:#030000;
+    --ternary:#33BBC5;
+    --pure:#ECEEFF;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    background-color: var(--dark);
+    clip-path:polygon(0 0, 100% 0 ,100% 100%,70% 90%,35% 90%,0 100%);
+  
+
+}
+ 
+
+
+header nav .navright a{
+    color: var(--pure);
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 70px;
+    transition: all .2s;
+    
+}
+header nav .navright a:hover{
+    color:var(--ternary);
+    text-decoration: underline;
+    
+
+}
+.navleft{
+    max-width: 100px;
+    
+}
+
+.navleft img{
+    max-width: 100%;
+    height:auto;
+     
+}
+
+.container{
+    max-width: 1000px;
+    padding: 0 0px;
+    margin: 0 auto;    
+}
+.model .Lt{
+
+    padding-right: 200px;
+}
+.model .Lt img{
+    width:271px;
+    
+}
+
+.model .rt{
+    color:var(--pure);
+}
+
+.model .rt h3{
+    color:var(--ternary);
+    font-size: 2rem;
+    padding-bottom: 10px;
+    
+}
+
+.model .rt h4{
+    padding-bottom: 10px;
+
+}
+.model .rt h1 span{
+    color:var(--primary);
+}
+
+
+section{
+    padding: 3rem;
+}
+.about .container1{
+    padding-bottom: 100px;
+}
+.about .container1 img{
+   margin-top: 25px;
+    width:400px;
+    height: 315px;
+
+}
+
+.about .container1 img:hover{
+    content: '';   
+    box-shadow: 0 0 10px var(--primary); 
+   
+}
+.about .container2 p{
+    margin-bottom: 20px;
+}
+.about .container2{
+    margin-top: 70px;
+}
+
+.about .container2 a{
+
+   font-size: larger;
+   margin-right: 0.6rem;
+}
+
+.about .container2 p span{
+    color:var(--ternary);
+}
+
+.Services{
+    margin-left: 25%;
+}
+.Services h1{
+    
+    margin-left:22%;
+    margin-bottom: 5%;
+    font-size: 35px;
+    
+}
+.Services .box{
+    width: 500px;
+    height: 300px;
+    border:2px solid #0ceff0;
+    padding:20px;
+    
+    color:var(--pure);
+    background-color: var(--dark);
+}
+
+.Services .box img{
+    max-width: 50px;
+    max-height: 60px;
+    margin-left: 180px;
+}
+
+.Services .box h2{
+    margin-left: 90px;
+    margin-bottom: 10px;
+    color:var(--primary);
+}
+.skills{
+    max-height:auto;
+    padding-bottom: 5rem;
+    background-color: var(--dark);
+    color: var(--pure);
+    font:lighter;
+    clip-path:polygon(0 0, 100% 0 ,100% 100%,70% 90%,35% 90%,0 100%);
+    
+    
+}
+.skills h2{
+padding-left:45%;
+}
+
+.skills h2 span{
+    color: var(--primary);
+}
+
+
+.skills-box{
+    width: 160%;
+    padding-right: 300px;
+    
+    
+}
+
+.skills .skills-row{
+    display: flex;
+   
+    gap: 5rem;
+}
+.skills-row .skills-col{
+    flex: 1 1 40rem;
+}
+
+.skills-col .title{
+    font-size: 0.8rem;
+    margin: 0 0 1.5rem;
+    color: var(--pure);
+}
+.skills-box .skills-content{
+    position:relative;
+    border: .2rem solid var(--pure);
+    border-radius: 0.5rem;
+    padding:.5rem 1.5rem;
+    
+}
+
+.skills-content .progress{
+    padding: 1rem 0;
+}
+
+.skills-content progress h3{
+    font-size: 1.7rem;
+    display:flex;
+    justify-content: space-between;
+   
+    
+}
+
+.skills-content .progress h3 span{
+    color: var(--primary);
+
+}
+
+.skills-content .progress .bar{
+    height:1.9rem;
+    width: 100%;
+    border-radius: .2rem;
+    border: .2rem solid var(--primary);
+    padding: .5rem;
+    margin:1rem 0;
+    
+
+}
+.skills-content .progress .bar span{
+    display: block;
+    height:100%;
+    border-radius: .3rem;
+    background-color: var(--primary);
+}
+.skills-col:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
+    width:80%;
+
+}
+.skills-col:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
+    width:80%;
+}
+.skills-col:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
+    width:70%;
+}
+.skills-col:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
+    width:60%;
+}
+
+.skills-col:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
+    width:80%;
+
+}
+.skills-col:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
+    width:80%;
+}
+.skills-col:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
+    width:70%;
+}
+.skills-col:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
+    width:60%;
+}
+
+.projects {
+    max-height: 500px;
+    max-width: auto;
+}
+.projects h1{
+    padding-left: 45%;
+    padding-bottom: 4%;
+    font-size: 40px;
+
+}
+.proj1, .proj2{
+    border: 2px solid var(--dark);
+    padding:10px 10px;
+
+}
+.proj1:hover{
+    box-shadow: 2px 8px 8px 2px var(--primary);
+}
+.proj2:hover{
+    box-shadow: 2px 8px 4px 2px var(--primary);
+}
+.proj1 img{
+    max-height: 400px;
+    width: 100%;
+    
+
+}
+.proj1 p span{
+    color: var(--ternary);
+    
+}
+.proj2 p span{
+    color: var(--ternary);
+    
+}
+.proj2 img{
+    height: 370px;
+    width: 100%;
+
+}
+
+.Contact{
+     margin-top: 120px;
+     background-color: var(--dark);
+     color: var(--pure);
+     height: 160px;
+}
+.Contact .cont h2{
+    font:lighter;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.Contact .Copyright{
+    margin-top: 20px;
+    margin-left: 45%;
+   
+}
+.Contact .cont h2 span{
+  color: var(--primary);
+}
+.Contact .cont i{
+    padding-right: 5px;
+}
+
