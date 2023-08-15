@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhavya Dutt Bhardwaj-Portfolio</title>
+    <link rel="stylesheet" href="/CSS/styleport.css">
+    <script src="port.js"></script>
+    <script src="https://kit.fontawesome.com/b39420c89d.js" crossorigin="anonymous"></script>
+     
+</head>
+<body>
+       <header class="header">
+          <div class="container">
+         
+          <nav class="flex">
+            <div class="navleft flex">
+                  <img src="portimages/portlogo.png" alt="Logo">
+            </div>
+             <div class="navright flex center justify-between">
+             <a href="#">Home</a>
+             <a href="#about">About</a>
+             <a href="#services">Services</a>
+             <a href="#skills">Skills</a>
+             <a href="#projects">Projects</a> 
+             <a href="#contact">Contact</a>
+            </div>
+          </nav> 
+          <div class="model flex center">
+              <div class="Lt">
+              <img src="portimages/ME.png" alt="">
+              </div>
+              <div class="rt">
+              <h3>Bhavya Dutt Bhardwaj</h3>
+              <h4>MCA,USICT(2024)</h4>
+              <h1>I am a <span>Front End Developer</span></h1>
+              <p>Highly ambitious and inquisitive Computer science student seeking an entry level position in Computer Science field to learn and
+                 explore various technologies and advancements in Computer Science while contributing to the growth and success of the organization</p>
+               <div> <button class="btn"id="resume">Download Resume</button></div>  
+          </div>
+
+       </div>
+       </header>
+
+       <section  id="about" class="about flex">
+          <div class="container1">
+             <img src="portimages/Avatar.png" alt="">
+          
+          </div>
+          <div class="container2"> 
+               <h1>About Me</h1>
+               
+                <p>Hi there! I'm <span>Bhavya Dutt Bhardwaj</span>, a dedicated front-end developer with a strong passion for crafting captivating web experiences. My journey in web development is driven by a fascination with the intersection of creativity and technology. Armed with skills in HTML, CSS, and JavaScript, I specialize in turning concepts into visually appealing and user-friendly websites. I believe in staying ahead of industry trends, constantly refining my skills to ensure that every project I undertake is not only functional but also reflects the latest design standards. With an unwavering commitment to creating intuitive and engaging user interfaces, I'm excited to collaborate on projects that bring innovative digital visions to life.
+
+Beyond coding, I find inspiration in the world of storytelling, particularly in crafting engaging game scripts. My love for both web development and narrative design allows me to approach challenges with a unique blend of technical expertise and creative flair. When I'm not immersed in code, you'll often find me exploring nature, capturing moments through a camera lens, or getting lost in a compelling novel. These experiences outside the digital realm enrich my perspective and drive me to create web solutions that resonate with users on a meaningful level.</p>
+                <div>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter" style="color: black;"></i></a>
+                <a href="https://github.com/BhavyaDBhardwaj"><i class="fa-brands fa-github" style="color: black;"></i></a>
+                <a href="https://www.linkedin.com/in/bhavya-dutt-bhardwaj/"><i class="fa-brands fa-linkedin" style="color: #5386df;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram" style="color: #d4401c;"></i></a>
+                <a href="#"><i class="fa-brands fa-gmail" style="color: #d4401c;"></i></a>
+                </div>
+                </div>
+          </div>
+       </section>
+       <hr class="section-divider">
+
+       <section id="services" class="Services">
+       <div>
+         <h1>Services</h1>
+       </div>
+       <div class="box">
+
+           <img src="portimages/cod.png" alt="codeimage">
+           <h2>Web Development</h2>
+           <p>I specialize in front-end web development, turning designs into engaging and responsive websites. With expertise in HTML, CSS, and JavaScript, I create dynamic interfaces that captivate users. By prioritizing user-centric design and industry best practices, I ensure visually stunning and seamlessly functional websites across devices and browsers.</p>
+       
+       </div>
+       
+       </section>
+
+       <section id="skills" class="skills">
+         <h2>My <span>Skills</span></h2>
+             
+             <div class="skills-row">
+               <div class="skills-col">
+                 <h3 class="title1">Technical Skills</h3>
+                 <div class="skillbox">
+                 <div class="skills-box">
+                   <div class="skills-content">
+                   <div class="progress">
+                    <h3>HTML <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>CSS <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>JS <span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>NLP <span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+
+              <div class="skills-col">
+                 <h3 class="title2">Other Skills</h3>
+                 <div class="skillbox">
+                 <div class="skills-box">
+                   <div class="skills-content">
+                   <div class="progress">
+                    <h3>Communication <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>Creativity <span>80%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>Problem Solving <span>70%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+
+                    <div class="progress">
+                    <h3>Teamwork <span>60%</span></h3>
+                    <div class="bar"><span></span></div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+           
+         
+                     
+               
+       </section>
+      
+       <section id="projects" class="projects">
+      <h1>Projects</h1>
+      <div class="proj flex">
+         <div class="proj1">
+            <img src="portimages/ecomm.jpg" alt="Ecommerce">
+            <p>WebBazaar - Ecommerce website based on
+                concepts of <span>HTML, CSS</span> and <span>JavaScript</span></p>
+
+             <a href="https://bhavyadbhardwaj.github.io/WebBazaar/">Github <i class="fa-brands fa-github"></i></a>   
+         </div>
+
+         <div class="proj2">
+           <img src="portimages/imgChatbot.jpg" alt="chatbot">
+           <p>A university based Chatbot on <span>NLP</span> principles</p>
+           <a href="https://github.com/BhavyaDBhardwaj/Totorochatbot">Github <i class="fa-brands fa-github"></i></a>   
+         </div>
+      </div>
+
+
+       </section>
+        
+       <footer id="contact" class="Contact flex" >
+       <div class="cont">
+         <h2>Contact <span>Me</span></h2>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter" style="color: white"></i></a>
+          <a href="https://github.com/BhavyaDBhardwaj"><i class="fa-brands fa-github" style="color: white;"></i></a> 
+          <a href="https://www.linkedin.com/in/bhavya-dutt-bhardwaj/"><i class="fa-brands fa-linkedin" style="color: #5386df;"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram" style="color: #d4401c;"></i></a>
+         
+          <br>
+          <p>Email : bhavyadbip@gmail.com</p>
+          </div> 
+
+       <div class="Copyright center">
+          <p><i class="fa-regular fa-copyright" style="color: #ffffff;"></i> COPYRIGHT- BHAVYA DUTT BHARDWAJ </p>
+       </div>   
+
+       </footer>
+
+</body>
+</html>
